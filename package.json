@@ -1,0 +1,36 @@
+{
+  "name": "my-page",
+  "version": "1.0.0",
+  "description": "个人主页",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmingzi/myPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jmingzi/myPage/issues"
+  },
+  "homepage": "https://github.com/Jmingzi/myPage#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-rev": "^8.0.0",
+    "gulp-rev-collector": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.5.3",
+    "pump": "^1.0.2",
+    "run-sequence": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0"
+  }
+}

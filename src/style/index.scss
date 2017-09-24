@@ -1,0 +1,73 @@
+.w-900 {
+    width:900px;
+}
+.w-1200 {
+    width: 1200px;
+}
+.title {
+    font-size: 40px;
+    font-family: Raleway,Hiragino Sans GB,Arial;
+    font-weight: 200;
+}
+.my-link {
+    color: #cccccc;
+    &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+}
+.mask {
+    background-color: rgba(0,0,0,.7);
+
+    .close {
+        background-color: rgba(0,0,0,.4);
+        font-size: 40px;
+        font-weight: 200;
+    }
+}
+
+$width: 400px;
+.text-wrap {
+    width: $width;
+    margin-left: -$width / 2;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    border-radius: 4px;
+}
+.text {
+    margin: 20px 50px;
+}
+.changeWidth {
+    animation-name: changeWidth;
+}
+.changeWidthInverse {
+    animation-name: changeWidthInverse;
+}
+
+@keyframes changeWidth {
+    from { width: 0; }
+    to { width: $width; }
+}
+
+@keyframes changeWidthInverse {
+    from { width: $width; }
+    to { width: 0; }
+}
+.word-wrap {
+    left: 50%;
+    margin-left: -450px;
+    padding: 10px 200px;
+    background-image: linear-gradient(90deg, transparent, rgba(255,255,255, .8) 30%, rgba(255,255,255, .8) 70%, transparent);
+}
+
+body {
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    //&.mobile {
+    //    background-size: auto 100%;
+    //}
+}
